@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fr. Conceciao Rodrigues College of Engineering - Second Year Computer Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fr. Conceciao Rodrigues College of Engineering</h1>
+        <h2>Second Year Computer Engineering</h2>
+
+        <h3>SE COMPS B TIME TABLE</h3>
+        <label for="dateInput">Select Date:</label>
+        <input type="date" id="dateInput" placeholder="Select a date">
+
+        <div class="table-wrapper">
+            <table id="csvTable">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>8:45 to 9:45 am</th>
+                        <th>9:45 to 10:45 am</th>
+                        <th>10:45 to 11:00 am</th>
+                        <th>11:00 to 12:00 am</th>
+                        <th>12:00 to 1:00 pm</th>
+                        <th>1:00 to 1:30 pm</th>
+                        <th>1:30 to 2:30 pm</th>
+                        <th>2:30 to 3:30 pm</th>
+                        <th>3:30 to 4:30 pm</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+
+        <h3>SE COMPS A TIME TABLE</h3>
+        <label for="dateInputA">Select Date:</label>
+        <input type="date" id="dateInputA" placeholder="Select a date">
+
+        <div class="table-wrapper">
+            <table id="csvTableA">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>8:45 to 9:45 am</th>
+                        <th>9:45 to 10:45 am</th>
+                        <th>10:45 to 11:00 am</th>
+                        <th>11:00 to 12:00 am</th>
+                        <th>12:00 to 1:00 pm</th>
+                        <th>1:00 to 1:30 pm</th>
+                        <th>1:30 to 2:30 pm</th>
+                        <th>2:30 to 3:30 pm</th>
+                        <th>3:30 to 4:30 pm</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+    
+        <h3 class="lab-table-title">Lab Time Table</h3>
+
+        <!-- Moved the label and select elements below the h3 heading -->
+        <div class="batch-select-wrapper">
+            <label for="batchSelect">Select Batch:</label>
+            <select id="batchSelect" onchange="filterByBatch()">
+                <option value="">Choose</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
+                <option value="I">I</option>
+                <option value="J">J</option>
+            </select>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="labTable">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Subject</th>
+                        <th>Batch</th>
+                        <th>Faculty</th>
+                        <th>Lab</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+            
+            
+            
+        </div>
+        <div class="Syllabus-wrapper">
+            <button onclick="window.open('https://drive.google.com/file/d/1vZ3r_gMwJKZgALdDI8ln6F6oG8CA_5ao/view', '_blank')">Syllabus</button>
+        </div>
+        
+        
+
+        <footer>
+            <div class="footer-content">
+                <p>© 2024 Team 4i. All rights reserved.</p>
+                <p>Made with <span class="heart">❤️</span> by <strong>Team 4i</strong></p>
+                <p>Follow us on <a href="https://www.instagram.com/team.4i" target="_blank" class="instagram-link">Instagram</a></p>
+                
+                <div class="team-members">
+                
+                </div>
+                
+                <div class="contact-info">
+                    <p>If you encounter any issues, feel free to contact us on <a href="https://www.instagram.com/team.4i" target="_blank" class="instagram-link">Instagram</a> or reach out to <strong>Nishant Maurya</strong> at <a href="tel:+919653215070">9653215070</a> </p>
+                    
+                    
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    
+    <script src="scriptA.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="lab_Script.js" defer></script>
+    
+
+    
+    
+    
+    
+</body>
+</html>
