@@ -24,28 +24,28 @@ footer {
 
 
 
-/* H1 Styling */
+
 h1 {
-    font-size: 2.4em; /* Slightly increase the size */
+    font-size: 2.4em; 
     color: #ffffff;
     margin-bottom: 15px;
     text-align: center;
-    background-color: #34495e; /* Darker shade for a sleek look */
-    font-family: 'Quicksand', sans-serif,cursive; /* Modern font */
-    padding: 10px 20px; /* Add padding for more emphasis */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
-    border-radius: 20px; /* Smoother rounded corners */
+    background-color: #34495e; 
+    font-family: 'Quicksand', sans-serif,cursive;
+    padding: 10px 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px; 
 }
 
-/* H2 Styling */
+
 h2 {
     font-size: 1.5em;
-    color: #2c3e50; /* Darker color for contrast */
+    color: #2c3e50; 
     margin-bottom: 25px;
     text-align: center;
-    font-family: 'Quicksand', sans-serif,cursive; /* Matching modern font */
-    text-transform: uppercase; /* All caps for emphasis */
-    letter-spacing: 1px; /* Slight spacing for readability */
+    font-family: 'Quicksand', sans-serif,cursive;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
     
 }
 
@@ -59,14 +59,14 @@ h3 {
     background-color: #16b900;
     padding: 12.5px;
     border-radius: 5px;
-    display: block; /* Change from inline-block to block for full-width centering */
+    display: block; 
     text-align: center;
-    width: 40%; /* Set a specific width, adjust as needed */
-    margin: 25px auto 10px auto; /* Center the element by setting margins to auto */
+    width: 40%; 
+    margin: 25px auto 10px auto; 
 }
 
 
-/* Target the h3 element with the class lab-table-title */
+
 
 
 
@@ -93,7 +93,7 @@ input[type="date"], button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Optional: Add margin to the top */
+    margin-top: 20px; 
 
 }
 
@@ -105,11 +105,11 @@ button {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    width: 20%; /* Adjust width as needed */
+    width: 20%;
     padding: 10px;
     font-size: 16px;
     border-radius: 4px;
-    margin: auto; /* Ensure it's centered within the wrapper */
+    margin: auto;
     margin-top: 20px;
 }
 
@@ -123,7 +123,7 @@ button:hover {
     margin-top: 20px; 
 }
 
-/* General table styles */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -143,29 +143,29 @@ th {
     font-size: 18px;
 }
 
-/* CSV Table specific styles */
-#csvTable, #csvTableA { /* Apply styles to both tables */
+
+#csvTable, #csvTableA {
     border: 1px solid #ddd;
 }
 
-#csvTable thead, #csvTableA thead { /* Apply styles to both table headers */
+#csvTable thead, #csvTableA thead { 
     background-color: #9352c5;
 }
 
 #csvTable tbody tr:nth-child(even), 
-#csvTableA tbody tr:nth-child(even) { /* Apply styles to even rows in both tables */
+#csvTableA tbody tr:nth-child(even) { 
     background-color: #b3ff9f;
 }
 
 #csvTable tbody tr:hover, 
-#csvTableA tbody tr:hover { /* Apply hover styles to both tables */
+#csvTableA tbody tr:hover { 
     background-color: #ddd;
 }
 
 
 
 
-/* Lab Table specific styles */
+
 #labTable {
     border: 1px solid #ddd;
 }
@@ -186,31 +186,31 @@ th {
     th, td {
         font-size: 14px;
         padding: 8px;
-        min-width: 60px; /* Set the minimum width */
+        min-width: 60px; 
        
     }
 }
  
 
-/* CSS for mobile view */
+
 @media (max-width: 768px) {
     .footer-content p {
-        line-height: 1.1em; /* Adjust line height for better readability */
-        word-wrap: break-word; /* Force wrap long words */
-        margin-bottom: 10px; /* Add space between paragraphs */
+        line-height: 1.1em; 
+        word-wrap: break-word; 
+        margin-bottom: 10px; 
     }
 
     .footer-content a {
-        word-wrap: break-word; /* Ensure long URLs wrap properly */
+        word-wrap: break-word; 
         display: inline-block;
     }
 
     .footer-content .contact-info p {
-        margin: 0 0 10px 0; /* Add space between contact info lines */
+        margin: 0 0 10px 0; 
     }
     
     .footer-content {
-        padding: 10px; /* Adjust padding for the entire footer content */
+        padding: 10px; 
     }
 }
 
@@ -249,23 +249,23 @@ th {
 }
 
 .batch-select-wrapper {
-    margin-bottom: 20px; /* Add spacing below the select dropdown */
-    text-align: center; /* Center-align the dropdown and label */
+    margin-bottom: 20px; 
+    text-align: center; 
 }
 
 .lab-table-title {
-    font-size: 0.9em; /* Slightly larger font size */
+    font-size: 0.9em; 
     color: #fff;
     margin-bottom: 15px;
-    margin-top: 25px; /* Add top margin to shift it down */
+    margin-top: 25px; 
     letter-spacing: 1px;
     background-color: #16b900;
     padding: 12.5px;
     border-radius: 5px;
     display: block;
     text-align: center;
-    width: 40%; /* Set a specific width, adjust as needed */
-    margin: 25px auto 10px auto; /* Center the element and add top margin */
+    width: 40%;
+    margin: 25px auto 10px auto; 
 }
 .lab-table-title:hover{
     background-color: #ff511d;
@@ -278,21 +278,21 @@ h3:hover{
 
 .batch-select-wrapper {
     display: flex;
-    justify-content: center; /* Center the entire batch select wrapper */
-    align-items: center; /* Vertically align the elements */
-    margin-bottom: 20px; /* Add spacing below the select dropdown */
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px; 
 }
 label[for="batchSelect"] {
     font-size: 1.2em;
     font-weight: bold;
     color: #333;
-    margin-right: 5px; /* Add some spacing between the label and the dropdown */
-    display: inline-block; /* Ensure the label is inline */
+    margin-right: 5px;
+    display: inline-block; 
 }
 
 #batchSelect {
-    display: inline-block; /* Ensure the dropdown is inline */
-    vertical-align: middle; /* Align vertically with the label */
+    display: inline-block;
+    vertical-align: middle; 
 }
 
 
@@ -300,13 +300,13 @@ label[for="dateInput"] {
     font-size: 1.2em;
     font-weight: bold;
     color: #333;
-    margin-right: 10px; /* Add some spacing between the label and the dropdown */
+    margin-right: 10px;
 }
 label[for="dateInputA"] {
     font-size: 1.2em;
     font-weight: bold;
     color: #333;
-    margin-right: 10px; /* Add some spacing between the label and the dropdown */
+    margin-right: 10px; 
     
 }
 
@@ -316,7 +316,7 @@ label[for="dateInputA"] {
         font-size: 1.2em;
         font-weight: bold;
         color: #333;
-        margin-right: 10px; /* Add some spacing between the label and the dropdown */
+        margin-right: 10px; 
         
         
     }
@@ -324,7 +324,7 @@ label[for="dateInputA"] {
         font-size: 1.2em;
         font-weight: bold;
         color: #333;
-        margin-right: 10px; /* Add some spacing between the label and the dropdown */
+        margin-right: 10px; 
     }
     
 
@@ -333,13 +333,13 @@ label[for="dateInputA"] {
         font-size: 1.2em;
         font-weight: bold;
         color: #333;
-        margin-right: 5px; /* Add some spacing between the label and the dropdown */
-        display: inline-block; /* Ensure the label is inline */
+        margin-right: 5px; 
+        display: inline-block; 
     }
     
     #batchSelect {
-        display: inline-block; /* Ensure the dropdown is inline */
-        vertical-align: middle; /* Align vertically with the label */
+        display: inline-block; 
+        vertical-align: middle; 
     }
 }
 
@@ -351,12 +351,12 @@ select {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     color: #333;
-    width: 220px; /* Adjust width as needed */
+    width: 220px; 
 }
 
 
 
-/* Default styles for desktop */
+
 h1 {
     font-size: 2.5em;
     text-align: center;
@@ -367,27 +367,26 @@ h2 {
     text-align: center;
 }
 
-/* Styles for mobile devices */
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 1.9em; /* Reduce font size for smaller screens */
+        font-size: 1.9em; 
         
     }
 
     h2 {
-        font-size: 1.5em; /* Adjust h2 size accordingly */
+        font-size: 1.5em; 
     }
 }
 
-/* Styles for very small mobile devices */
+
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 1.5em; /* Further reduce font size for very small screens */
+        font-size: 1.5em; 
        
     }
 
     h2 {
-        font-size: 1.2em; /* Adjust h2 size accordingly */
+        font-size: 1.2em; 
     }
 }
 
@@ -401,25 +400,25 @@ h2 {
     background-color: #16b900;
     padding: 10px;
     border-radius: 5px;
-    display: block; /* Change from inline-block to block for full-width centering */
+    display: block; 
     text-align: center;
-    width: 70%; /* Set a specific width, adjust as needed */
-    margin: 25px auto 10px auto; /* Center the element by setting margins to auto */
+    width: 70%; 
+    margin: 25px auto 10px auto; 
     }
 
     .lab-table-title {
-        font-size: 0.9em; /* Slightly larger font size */
+        font-size: 0.9em; 
         color: #fff;
         margin-bottom: 15px;
-        margin-top: 25px; /* Add top margin to shift it down */
+        margin-top: 25px; 
         letter-spacing: 1px;
         background-color: #16b900;
         padding: 10px;
         border-radius: 5px;
         display: block;
         text-align: center;
-        width: 40%; /* Set a specific width, adjust as needed */
-        margin: 25px auto 10px auto; /* Center the element and add top margin */
+        width: 40%; 
+        margin: 25px auto 10px auto; 
     }
     
 }
@@ -433,25 +432,25 @@ h2 {
     background-color: #16b900;
     padding: 10px;
     border-radius: 5px;
-    display: block; /* Change from inline-block to block for full-width centering */
+    display: block; 
     text-align: center;
-    width: 70%; /* Set a specific width, adjust as needed */
-    margin: 25px auto 10px auto; /* Center the element by setting margins to auto */
+    width: 70%; 
+    margin: 25px auto 10px auto;
     }
 
     .lab-table-title {
-        font-size: 0.9em; /* Slightly larger font size */
+        font-size: 0.9em; 
         color: #fff;
         margin-bottom: 15px;
-        margin-top: 25px; /* Add top margin to shift it down */
+        margin-top: 25px; 
         letter-spacing: 1px;
         background-color: #16b900;
         padding: 10px;
         border-radius: 5px;
         display: block;
         text-align: center;
-        width: 40%; /* Set a specific width, adjust as needed */
-        margin: 25px auto 10px auto; /* Center the element and add top margin */
+        width: 40%; 
+        margin: 25px auto 10px auto; 
     }
     
 }
