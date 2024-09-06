@@ -1,3 +1,5 @@
+link to actual website used by students - (https://se-comps-schedule.netlify.app/)
+
 # The issue was that our college timetable kept changing, making it inefficient to repeatedly search through PDF files to find the current day's schedule. Additionally, the lab timetable was different, adding to the confusion.
 # So, I took the initiative to create a responsive website for the students in my branch. 
 # The site now allows students to view the timetable up to the scheduled date provided by the college. Upon opening the website, 
