@@ -137,8 +137,11 @@ function parseCSV(csv) {
 }
 
 function formatDateForComparison(dateString) {
-    const [year, month, day] = dateString.split('-');
-    return `${day}-${month}-${year.slice(-2)}`;
+    const date = new Date(dateString);
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based in JS
+    const year = date.getFullYear().toString().slice(-2);
+    return `${day}-${month}-${year}`;
 }
 
 function loadDataForDate(date) {
@@ -148,14 +151,14 @@ function loadDataForDate(date) {
 }
 
 function loadTimetables() {
-    const dateInput = document.getElementById('dateInput').value || new Date().toISOString().split('T')[0];
-    const selectedDate = new Date(dateInput);
+        const dateInput = document.getElementById('dateInput').value || new Date().toISOString().split('T')[0];
+        const selectedDate = new Date(dateInput);
 
-    const previousDate = new Date(selectedDate);
-    previousDate.setDate(selectedDate.getDate() - 1);
+        const previousDate = new Date(selectedDate);
+        previousDate.setDate(selectedDate.getDate() - 1);
 
-    const nextDate = new Date(selectedDate);
-    nextDate.setDate(selectedDate.getDate() + 1);
+        const nextDate = new Date(selectedDate);
+        nextDate.setDate(selectedDate.getDate() + 1);
 
     const dates = [previousDate, selectedDate, nextDate];
 
@@ -213,4 +216,5 @@ window.onload = function() {
 document.getElementById('dateInput').addEventListener('change', () => {
     loadTimetables();
 });
+
 
