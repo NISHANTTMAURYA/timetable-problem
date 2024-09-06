@@ -182,7 +182,7 @@ window.onload = function() {
         highlightCurrentTimeColumn(); 
         loadTimetablesA(); 
         highlightCurrentTimeColumnA(); 
-    }, 1000); 
+    }, 500); 
 };
 
 
@@ -195,7 +195,7 @@ document.getElementById('batchSelect').addEventListener('change', function() {
         highlightCurrentTimeColumn(); 
         loadTimetablesA(); 
         highlightCurrentTimeColumnA(); 
-    }, 1000); // Adjust the timeout duration as needed
+    }, 500); // Adjust the timeout duration as needed
 };
 
 // Add an event listener to the batch select dropdown to filter data
